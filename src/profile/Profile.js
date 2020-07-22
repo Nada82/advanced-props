@@ -27,5 +27,9 @@ return (
   </div>
   );
 }
+Profile.defaultProps={
+  name:"Harry Potter",
+  bio:"Up to no good",
+  profession:"wizard",}
 
 export default Profile;
