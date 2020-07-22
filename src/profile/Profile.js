@@ -21,12 +21,11 @@ return (
         className="img" alt="hp">
         </img>
       </Picture>
-      <FullName name="Harry Potter" className="name"> </FullName>
-      <Bio bio="'I solemonly swear that I am up to no good.'"></Bio>
-      <Profession profession="Auror"></Profession>
+      <FullName> </FullName>
+      <Bio></Bio>
+      <Profession></Profession>
   </div>
   );
 }
- 
 
 export default Profile;
