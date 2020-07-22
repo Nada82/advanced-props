@@ -4,9 +4,11 @@ import React from 'react';
 function FullName(props) {
     return (
       <div >
-        {props.name}
+        Full Name : {props.name}
       </div>
     );
   }
+FullName.defaultProps={
+    name:"HARRY POTTER",}
 
 export default FullName;
